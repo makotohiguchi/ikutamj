@@ -1,11 +1,19 @@
-body{
+*{
   margin:0;
-}
-header{
-  background-color:red;
+  padding:0;
 }
 
-h1{
-  margin:0;
-  text-align:center;
+
+header{
+  height:300px;
+  background-image:url("../img/akagi.jpg");
+  background-size:100% 300px;
+}
+
+.container{
+  width:250px;
+  margin:0 auto;
+  padding:15px;
+  color:rgb(247, 15, 15);
+  opacity:0.5;
 }
